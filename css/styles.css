@@ -1,0 +1,323 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6,label {
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-weight: bold;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.big-charm {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+ /* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #F56EB3;
+  color: #fff;
+}
+
+ label {
+   color: #7F167F;
+   font-weight: bold;
+   font-size: 1.3rem;
+ }
+
+
+.white-section {
+  background-color: #fff;
+  color: #7F167F;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 2rem 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Rubik Gemstones";
+  font-size: 2.5rem;
+  color: #7F167F;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+  color: #7F167F;
+}
+.nav-link:hover {
+  color: #fff;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  border-radius: 10px;
+}
+
+.download-button:hover {
+  box-shadow: #8f8f8f 0 0 0 5px, transparent 0 0 0 0;
+}
+
+/* Title Section */
+
+
+#title .container {
+  font-family: Ubuntu;
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(-20deg);
+  border-radius: 20%;
+  position: absolute;
+  left: 10%;
+}
+
+
+/* Features section */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+
+.feature-box {
+  padding: 4%;
+}
+
+.icon {
+  color: #CD5888;
+  margin-bottom: 1rem;
+  text-shadow: 3px 0 #DA0463;
+}
+
+.icon:hover {
+  color: #1C315E;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #F56EB3;
+}
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 50%;
+  margin: 20px;
+  float: left;
+}
+
+.testimonial-images {
+  width: 40%;
+  border-radius: 80%;
+  height: 20%;
+  margin: 20px;
+  float: left;
+}
+
+.testimonial-text {
+  font-size: 2.7rem;
+  line-height: 1.5;
+  font-family: Ubuntu;
+  padding-top: 20px;
+
+}
+
+#testimonial-carousel h2 {
+  color: #1C315E;
+  font-family: "Arvo", cursive;
+}
+
+
+.hun:hover {
+  background-color: #1C315E;
+  box-shadow: #8f8f8f 0 0 0 5px, transparent 0 0 0 0;
+}
+
+
+
+
+
+.carousel-inner {
+  height: auto;
+  overflow: hidden;
+}
+
+
+.carousel-item {
+  list-style: none;
+  text-align: center;
+  line-height: 100px;
+}
+
+ .carroll {
+   -webkit-transform: translate3d(0, +100%, 0);
+   transform: translate3d(0, +100%, 0);
+   -webkit-animation: scroll 10s;
+   animation: scroll 10s;
+   animation-iteration-count: 1;
+ }
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translate3d(0, +100%, 0);
+    transform: translate3d(0, +100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+
+
+     /*
+     .carousel-item-next,
+     .active.carousel-item-right {
+     -webkit-transform: translate3d(0, 0, 0);
+             transform: translate3d(0, 0, 0);
+     }
+     .carousel-item-prev,
+     .active.carousel-item-left {
+     -webkit-transform: translate3d(0, +100%, 0);
+            transform: translate3d(0, +100, 0);
+     }
+*/
+
+
+
+
+
+#press {
+  background-color: #F56EB3;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+@media (max-width: 1028px) {
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* Footer Section */
+
+#footer {
+  height: 100px;
+}
+
+.social-icon {
+  color: #472183;
+  margin: 20px 10px;
+}
+.social-icon:hover {
+  color: #B3005E;
+}
+
+/* image */
+.pc {
+    float: left;
+    padding: 20px;
+}
+.song {
+    float: right;
+    padding: 20px;
+}
+
+.parent img {
+  width: 40%;
+  border-radius: 20%;
+}
+
+.parent p {
+  font-family: "Arvo", cursive;
+  color: #7F167F;
+}
+.icon2 {
+  color: #CD5888;
+}
+
+.icon4 {
+  color: #472183;
+}
+/* dropdown */
+
+.dropdown-item:hover {
+  background-color: #CD5888;
+}
+
+.b-example-divider {
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1rem;
+        margin-left: 1;
+      }
+
+.icon5 {
+  background-color: #472183;
+}

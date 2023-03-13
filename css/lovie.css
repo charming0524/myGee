@@ -1,0 +1,115 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-family: "Ubuntu";
+
+}
+
+.parent p {
+  color: #fff;
+  font-family: "Cursive";
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 2;
+  padding: 1rem;
+}
+.parent {
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+ /* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #E90064;
+  color: #060047;
+}
+
+
+
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  border-radius: 10px;
+}
+
+.download-button:hover {
+  color: #fff;
+  background-color: #060047;
+  box-shadow: #8f8f8f 0 0 0 5px, transparent 0 0 0 0;
+}
+
+/* Title Section */
+
+
+
+
+.icon {
+  color: #060047;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #E90064;
+}
+
+.big-heading {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+
+
+.social-icon {
+  color: #060047;
+
+}
+.social-icon:hover {
+  color: #fff;
+}
+
+/* image */
+.pc {
+    float: left;
+    padding: 20px;
+}
+.song {
+    float: right;
+    padding: 20px;
+}
+
+.parent img {
+  width: 50%;
+  border-radius: 20%;
+}
+
+/* dropdown */
+
+.dropdown-item:hover {
+  background-color: #472183;
+}
+
+#footer {
+  text-align: center;
+  padding-bottom: 5px;
+}
